@@ -11,7 +11,7 @@ function Navbartop() {
   return (
     <Navbar expand="lg" className=" shadow-sm bg-white">
     <Container >
-      <Navbar.Brand href="#" className=' font-bold'><img className='h-[60px]' src="public/logo.png" alt="" /></Navbar.Brand>
+      <Navbar.Brand href="#" className=' font-bold'><h1 className=' '>Arrong</h1></Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav

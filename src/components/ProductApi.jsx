@@ -16,9 +16,9 @@ function ProductApi() {
   }, []);
   return (
     <Container >
-        <div className="mx-auto mt-4 relative w-[500px]">
+        <div className="mx-auto items-center flex justify-center mt-4 relative w-[300px] lg:w-[500px]">
 
-        <input type="Search items" className="px-4 shadow-sm w-[500px] border-[#000] border-[2px] rounded-xl h-12"  placeholder="search items"/>
+        <input type="Search items" className="px-4 shadow-sm w-[300px] lg:w-[500px] border-[#000] border-[2px] rounded-xl h-12"  placeholder="search items"/>
         <CiSearch className=" absolute top-3 right-5 text-2xl" />
         </div>
       <div className="d-flex flex-wrap content-evenly">
