@@ -23,7 +23,7 @@ function ProductApi() {
         </div>
       <div className="d-flex flex-wrap content-evenly">
         {products.map((item) => (
-          <Card  style={{ width: "16rem", margin: "20px" }}>
+          <Card  style={{ width: "17rem", margin: "20px" }}>
             <Card.Img variant="top" style={{height:'250px', padding:'20px'}} src={item.image} />
             <Card.Body>
               <Card.Title>{(item.title.length>40)?
